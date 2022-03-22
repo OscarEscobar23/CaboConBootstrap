@@ -1,0 +1,41 @@
+/*-------------------GLOBALS------------*/
+*{
+    margin:0;
+    padding:0;
+   
+}
+
+
+/*-------------------MAIN MENU------------*/
+.main-menu{
+    position:sticky;
+    top:0;
+    width:100%;
+    z-index: 100;
+   
+}
+
+.contactMain {
+    display:flex;
+    justify-content:space-between;
+    background-color: #68d4cb;
+}
+
+
+/*-------------------BOOK BUTTON------------*/
+.bookContainer {
+    width: 100%;
+    align-items: center;
+    padding:5%;
+}
+.book{
+    background-color: #68d4cb;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1.33333;
+    margin-top:10px;
+    text-align: center;
+    width: 100%;
+    padding:10px 16px;
+}

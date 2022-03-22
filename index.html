@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cabo Trasportation . Exclusive Services </title>
     <link rel="icon" href="img/cabo_logo.png">
-    <link href="styles/styles.css"rel="stylesheet" type="text/css">
+    <link href="styles.css"rel="stylesheet" type="text/css">
     <!-------------GOOGLE FONTS---------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Kaushan+Script&family=Montserrat+Alternates:ital,wght@0,300;0,500;1,100;1,600&family=Mukta:wght@200&display=swap" rel="stylesheet">
+     <!-------------BOOTSTRAP---------------->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+  
     <!-------------FONT AWESOME---------------->
     <script src="https://kit.fontawesome.com/66338922e9.js" crossorigin="anonymous"></script>
 </head>
@@ -18,19 +25,18 @@
         ------------------------------------>
     <section id="main-menu">
         <header>
-            <div class="container-fluid">
-                <p>
+            <div class="contactMain container-fluid  d-flex ">
+                <p class="navbar-brand text-light mb-0 p-2 fs-5 text secondary">
                     <span>Contact me</span>
-                    <a href="tel:+52 624 158 1502">+52 624 158 1502</a>
+                    <a class="text-dark text-decoration-none"href="tel:+52 624 158 1502">+52 624 158 1502</a>
                 </p>
-                <div>
-                    <a href="https://www.instagram.com/cabotransportationservices/?utm_source=ig_embed&ig_rid=04eb4432-0094-4729-8f21-505dfe5261fb" target="_blank" rel="">
-                        <i class="bi bi-instagram p-1">
-                            
+                <div class="navbar-brand">
+                    <a href="https://www.instagram.com/cabotransportationservices/?utm_source=ig_embed&ig_rid=04eb4432-0094-4729-8f21-505dfe5261fb" target="blank" rel="">
+                        <i style="color:black"class="fa-brands fa-instagram">
                         </i>
                     </a>
-                    <a href="https://www.facebook.com/Cabo-transportation-exclusive-services-102411758262514/" target="_blank" rel="">
-                        <i class="bi bi-facebook p-1">
+                    <a href="https://www.facebook.com/Cabo-transportation-exclusive-services-102411758262514/" target="blank" rel="">
+                        <i style="color:black" class="fa-brands fa-facebook">
 
                         </i>
                     </a>
@@ -66,9 +72,11 @@
               <!--------------------------------------
                 --------------BOOKING BUTTON------
                 ------------------------------------------------->
-            <div class="botonBook">
-                <h3>Book Now</h3>
-            </div>
+                <div class="bookContainer">
+                    <p class="book">Book now</p>
+                </div>
+               
+            
               <!--------------------------------------
                 --------------SOME INFO------
                 ------------------------------------------------->
@@ -334,7 +342,6 @@
         </div>
     </footer>
    
-
 
 </body>
 </html>
