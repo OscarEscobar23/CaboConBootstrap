@@ -9,12 +9,12 @@
     <!-------------GOOGLE FONTS---------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Kaushan+Script&family=Montserrat+Alternates:ital,wght@0,300;0,500;1,100;1,600&family=Mukta:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Kaushan+Script&family=Montserrat+Alternates:ital,wght@0,100;0,500;1,100;1,600&family=Montserrat:wght@100;300;400;500;700&family=Mukta:wght@200&display=swap" rel="stylesheet">
      <!-------------BOOTSTRAP---------------->
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
   
     <!-------------FONT AWESOME---------------->
@@ -23,44 +23,46 @@
 <body>
        <!-------------MAIN MENU-----------------
         ------------------------------------>
-    <section id="main-menu">
-        <header>
-            <div class="contactMain container-fluid  d-flex ">
-                <p class="navbar-brand text-light mb-0 p-2 fs-5 text secondary">
-                    <span>Contact me</span>
-                    <a class="text-dark text-decoration-none"href="tel:+52 624 158 1502">+52 624 158 1502</a>
-                </p>
-                <div class="navbar-brand">
-                    <a href="https://www.instagram.com/cabotransportationservices/?utm_source=ig_embed&ig_rid=04eb4432-0094-4729-8f21-505dfe5261fb" target="blank" rel="">
-                        <i style="color:black"class="fa-brands fa-instagram">
-                        </i>
-                    </a>
-                    <a href="https://www.facebook.com/Cabo-transportation-exclusive-services-102411758262514/" target="blank" rel="">
-                        <i style="color:black" class="fa-brands fa-facebook">
+    <section id="main-menu navbar sticky-top">
+       
+            <header class="container-fluid">
+                <div class="contactMain navbar-brand">
+                    <p class="navbar-brand text-light mb-0 p-2 fs-5 text secondary nav-item">
+                        <span>Contact me</span>
+                        <a class="text-dark text-decoration-none"href="tel:+52 624 158 1502">+52 624 158 1502</a>
+                    </p>
+                    <div class="navbar-brand">
+                        <a href="https://www.instagram.com/cabotransportationservices/?utm_source=ig_embed&ig_rid=04eb4432-0094-4729-8f21-505dfe5261fb" target="blank" rel="">
+                            <i style="color:black"class="fa-brands fa-instagram">
+                            </i>
+                        </a>
+                        <a href="https://www.facebook.com/Cabo-transportation-exclusive-services-102411758262514/" target="blank" rel="">
+                            <i style="color:black" class="fa-brands fa-facebook">
 
-                        </i>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </header>
+            <nav class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="/">
+                        <img src="img/cabo_logo.png" height="100" alt="">
                     </a>
                 </div>
-            </div>
-        </header>
-        <nav class="navbar">
-            <div>
-                <a href="/">
-                    <img src="img/cabo_logo.png" height="100" alt="">
-                </a>
-            </div>
-            <div></div>
-            <div>
-                <ul class="navbar-nav">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#contactLink">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+                <div class="navbar-brand"></div>
+                <div >
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contactLink">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+       
     </section>
    
                 <!-------------MAIN CONTAINER-----------------
@@ -91,40 +93,48 @@
                 </div>
             </div>
               <!--------------------------------------
-                --------------CAR CARDS------
+                --------------CAR'S CARD------
                 ------------------------------------------------->
                
             <div class="autos">
-                    <div class="auto">
-                        <img src="img/suburban_card.jpg" class="sub"> 
-                        <h2>Chevrolet <br>
-                            Suburban</h2>
-                        <p>Luxury SUV with 5<br>
-                             passangers capacity</p>
-                    </div>
-
-                    <div class="auto">
-                        <img src="img/expedition_card.jpg" class="ford">
-                        <h2>Ford<br>
-                                Expedition</h2>
-                        <p>Luxury SUV with 5 <br>
+                    <div class="auto card" style="width: 18rem;">
+                        <img src="img/suburban_card.jpg" class="sub card-img-top"> 
+                        <div class="card-body">
+                            <h2 class="card-title">Chevrolet <br>
+                                Suburban</h2>
+                            <p class="card-text">Luxury SUV with 5<br>
                                 passangers capacity</p>
+                        </div>
                     </div>
 
-                    <div class="auto">
-                            <img src="img/van_card.jpg" class="toyota">
-                            <h2>Toyota<br>
-                                Hiace</h2>
-                            <p>Luxury VAN with 10 <br>
-                                passangers capacity</p>
+                    <div class="auto card" style="width: 18rem;">
+                        <img src="img/expedition_card.jpg" class="ford card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ford<br>
+                                    Expedition</h2>
+                            <p class="card-text">Luxury SUV with 5 <br>
+                                    passangers capacity</p>
+                        </div>
                     </div>
 
-                    <div class="auto">
-                            <img src="img/vw_card.jpg" class="vw">
-                            <h2>Volkswagen<br>
-                                Crafter</h2>
-                            <p>Luxury large VAN with 16<br>
-                                 passangers capacity</p>
+                    <div class="auto card" style="width: 18rem;">
+                            <img src="img/van_card.jpg" class="toyota card-img-top">
+                            <div class="card-body">
+                                <h2 class="card-title">Toyota<br>
+                                    Hiace</h2>
+                                <p class="card-text">Luxury VAN with 10 <br>
+                                    passangers capacity</p>
+                            </div>
+                    </div>
+
+                    <div class="auto card" style="width: 18rem;">
+                            <img src="img/vw_card.jpg" class="vw card-img-top">
+                            <div class="card-body">
+                                <h2 class="card-title">Volkswagen<br>
+                                    Crafter</h2>
+                                <p class="card-text">Luxury large VAN with 16<br>
+                                    passangers capacity</p>
+                            </div>
                     </div>
             </div>
 
@@ -133,89 +143,89 @@
                 ------------------------------------------------->
 
                 <div class="zonas">
-                    <div class="zone">
-                        <div class="zone_top">
-                            <h2>San Jose <br> del Cabo</h2>
-                            <p>Zone 1</p>
+                    <div class="zone card"style="width: 18rem;">
+                        <div class="card-body zone_top">
+                            <h2 class="card-title">San Jose <br> del Cabo</h2>
+                            <p class="card-text">Zone 1</p>
                         </div>
-                        <div class="zone_round">
-                            <h4>Round trip</h4>
-                            <p>$110 USD</p>
+                        <div class="card-body zone_round">
+                            <h4 class="card-title">Round trip</h4>
+                            <p class="card-text">$110 USD</p>
                         </div>
-                        <div class="zone_oneWay">
-                            <h4>One Way</h4>
-                            <p>$60 USD</p>
+                        <div class="card-body zone_oneWay">
+                            <h4 class="card-title">One Way</h4>
+                            <p class="card-text">$60 USD</p>
                         </div>
-                        <div class="zone_boton">
+                        <div class="card-body zone_boton">
                             <button>View Hotel List</button>
                         </div>
 
                     </div>
-                    <div class="zone">
-                        <div class="zone_top">
-                            <h2>Turist</h2><h2> Corridor</h2><br>
-                            <p>Zone 2</p>
+                    <div class="zone card"style="width: 18rem;">
+                        <div class="card-body zone_top">
+                            <h2 class="card-title">Turist<br> Corridor</h2>
+                            <p class="card-text">Zone 2</p>
                         </div>
-                        <div class="zone_round">
-                            <h4>Round trip</h4>
-                            <p>$130 USD</p>
+                        <div class="card-body zone_round">
+                            <h4 class="card-title">Round trip</h4>
+                            <p class="card-text">$130 USD</p>
                         </div>
-                        <div class="zone_oneWay">
-                            <h4>One Way</h4>
-                            <p>$70 USD</p>
+                        <div class="card-body zone_oneWay">
+                            <h4 class="card-title">One Way</h4>
+                            <p class="card-text">$70 USD</p>
                         </div>
-                        <div class="zone_boton">
+                        <div class="card-body zone_boton">
                             <button>View Hotel List</button>
                         </div>
                     </div>
-                    <div class="zone">
-                        <div class="zone_top">
-                            <h2>Cabo San <br>Lucas</h2>
-                            <p>Zone 3</p>
+                    <div class="zone card"style="width: 18rem;">
+                        <div class="card-body zone_top">
+                            <h2 class="card-title">Cabo San <br>Lucas</h2>
+                            <p class="card-text">Zone 3</p>
                         </div>
-                        <div class="zone_round">
-                            <h4>Round trip</h4>
-                            <p>$150 USD</p>
+                        <div class="card-body zone_round">
+                            <h4 class="card-title">Round trip</h4>
+                            <p class="card-text">$150 USD</p>
                         </div>
-                        <div class="zone_oneWay">
-                            <h4>One Way</h4>
-                            <p>$80 USD</p>
+                        <div class="card-body zone_oneWay">
+                            <h4 class="card-title">One Way</h4>
+                            <p class="card-text">$80 USD</p>
                         </div>
-                        <div class="zone_boton">
+                        <div class="card-body zone_boton">
                             <button>View Hotel List</button>
                         </div>
                     </div>
-                    <div class="zone">
-                        <div class="zone_top">
-                            <h2>Cabo San <br>Lucas Pacific</h2>
-                            <p>Zone 4</p>
+                    <div class="zone card"style="width: 18rem;">
+                        <div class="card-body zone_top">
+                            <h2 class="card-title">Cabo San <br>Lucas Pacific</h2>
+                            <p class="card-text">Zone 4</p>
                         </div>
-                        <div class="zone_round">
-                            <h4>Round trip</h4>
+                        <div class="card-body zone_round">
+                            <h4 class="card-title">Round trip</h4>
                             <p>$170 USD</p>
                         </div>
-                        <div class="zone_oneWay">
-                            <h4>One Way</h4>
-                            <p>$90 USD</p>
+                        <div class="card-body zone_oneWay">
+                            <h4 class="card-title">One Way</h4>
+                            <p class="card-text">$90 USD</p>
                         </div>
-                        <div class="zone_boton">
+                        <div class="card-body zone_boton">
                             <button>View Hotel List</button>
                         </div>
                     </div>
-                    <div class="zone">
-                        <div class="zone_top">
-                            <h2>CSL Exit <br>Pacific Side</h2>
-                            <p>Zone 5</p>
+                    <div class="zone card"style="width: 18rem;" >
+                        <div class="card-body zone_top">
+                            <h2 class="card-title">CSL Exit <br>Pacific Side</h2>
+                            <p class="card-text">Zone 5</p>
                         </div>
-                        <div class="zone_round">
-                            <h4>Round trip</h4>
-                            <p>$190 USD</p>
+                        <div class="card-body zone_round">
+                            <h4 class="card-title">Round trip</h4>
+                            <p class="card-text">$190 USD</p>
                         </div>
-                        <div class="zone_oneWay">
-                            <h4>One Way</h4>
-                            <p>$100 USD</p>
+                        <div class="card-body zone_oneWay">
+                            <h4 class="card-title">One Way</h4>
+                            <p class="card-text">$100 USD</p>
                         </div>
-                        <div class="zone_boton">
+                        <div class="card-body zone_boton">
                             <button>View Hotel List</button>
                         </div>
                     </div>

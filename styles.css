@@ -1,7 +1,12 @@
 /*-------------------GLOBALS------------*/
 *{
-    margin:0;
-    padding:0;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
    
 }
 
@@ -9,9 +14,13 @@
 /*-------------------MAIN MENU------------*/
 .main-menu{
     position:sticky;
-    top:0;
-    width:100%;
-    z-index: 100;
+    top: 0px;
+    z-index: 1;
+    height:180px;
+    width:1400px;
+    background-image: url("/images/backgrounds/banner-top.svg");
+    background-size: cover;
+    background-position: center;
    
 }
 
@@ -20,7 +29,9 @@
     justify-content:space-between;
     background-color: #68d4cb;
 }
-
+.slider{
+    width:100%;
+}
 
 /*-------------------BOOK BUTTON------------*/
 .bookContainer {
@@ -38,4 +49,112 @@
     text-align: center;
     width: 100%;
     padding:10px 16px;
+}
+/*-------------------SOME INFO------------*/
+.texto{
+    text-align: center;
+    width:auto;
+    padding:1.5rem;
+    
+}
+.texto h1{
+    font-size:30px;
+    color:#68d4cb;
+}
+/*-------------------CAR'S CARD------------*/
+.autos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin:30px 0px 50px 0px;
+    width:80%;
+    text-align: center;
+    font-weight: 300;
+}
+.card-body{
+    background-color:#f8f9fa;
+}
+.auto img{
+    
+    height: 10rem;
+    width: 100%;
+    
+}
+.auto h2{
+    margin: 20px 0px;
+}
+.auto p{
+    margin: 0px 15px;
+}
+/*-------------------TRIP PRICES CARDS------------*/
+.zonas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top:0px;
+    margin-bottom:30px;
+    width:80%;
+
+
+}
+.zone{
+
+   
+    border: 1px solid #f2f2f2;
+    background-color:#f8f9fa;
+    text-align:center;
+    align-self: auto;
+    margin:1rem;
+    border-radius:5px;
+    width: auto;
+    
+}
+.zone_top{
+    border: 1px solid #f2f2f2;
+    font-weight: 100;
+    font-size:15px;
+    padding:1rem;
+   
+}
+.zone_top h2{
+    font-size:1.8rem;
+}
+.zone_round{
+    border: 1px solid #f2f2f2;
+    background-color:white;
+    font-weight: 100;
+    font-size:15px;
+   
+}
+
+.zone_oneWay{
+    border: 1px solid #f2f2f2;
+    background-color:white;
+    font-weight: 100;
+    font-size:15px;
+}
+.zone_boton{
+   
+  
+    background-color:#f8f9fa;
+    border: 1px solid #f2f2f2;
+    
+}
+.zone_boton button{
+    border: 1px solid transparent;
+    border-radius:0.25rem;
+    padding:0.375rem 0.75rem;
+    background-color:#68d4cb;
+    margin: 5px 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    color: #5d5f61;
+    font-size:15px;
+    cursor:pointer;
+    display:inline-block;
+
+}
+.zone_boton button:hover {
+
+    background-color:#03d6c5;
+    color:white;
 }
