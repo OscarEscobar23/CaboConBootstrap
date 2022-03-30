@@ -12,21 +12,10 @@
 
 
 /*-------------------MAIN MENU------------*/
-.main-menu{
-    position:sticky;
-    top: 0px;
-    z-index: 1;
-    height:180px;
-    width:1400px;
-    background-image: url("/images/backgrounds/banner-top.svg");
-    background-size: cover;
-    background-position: center;
-   
-}
+
 
 .contactMain {
-    display:flex;
-    justify-content:space-between;
+    
     background-color: #68d4cb;
 }
 .slider{
