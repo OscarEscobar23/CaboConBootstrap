@@ -1,0 +1,30 @@
+/*-------------------GLOBALS------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+
+}
+
+
+/*-------------------MAIN MENU------------*/
+
+/*-------------------BOOK BUTTON------------*/
+
+/*-------------------SOME INFO------------*/
+
+/*-------------------CAR'S CARD------------*/
+
+/*-------------------TRIP PRICES CARDS------------*/
+/*-------------------testimonials------------*/
+.slideImage{
+    background-image: url(../img/losCabos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:35rem;
+    z-index: -2;
+}

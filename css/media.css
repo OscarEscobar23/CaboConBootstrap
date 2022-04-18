@@ -1,0 +1,45 @@
+
+
+
+/*=========================================
+PANTALLA DE ESCRITORIO GRANDE - LARGE (lg)
+=========================================*/
+@media(min-width:1350px){
+
+    
+    
+}
+/*=========================================
+PANTALLA DE ESCRITORIO MEDIANA - MEDIUM (md)
+=========================================*/
+@media(max-width:1199px) and (min-width:992px){
+
+   
+   
+    .map{
+        width: 460px!important;
+        height: 460px!important;
+    }
+}
+/*=========================================
+PANTALLA DE TABLET - SMALL(sm)
+=========================================*/
+@media(max-width:991px) and (min-width:768px){
+
+  
+    .map{
+        width: 360px!important;
+        height: 360px!important;
+    }
+}
+/*=========================================
+PANTALLA DE PHONES - EXTRA SMALL(xs)
+=========================================*/
+@media(max-width:767px){
+
+    
+    .map{
+        width: 360px!important;
+        height: 360px!important;
+    }
+}

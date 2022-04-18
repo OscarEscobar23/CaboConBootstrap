@@ -1,7 +1,4 @@
-$primary: #68d4cb;
-
-$theme-colors: (
-    "primary": $primary
-);
-
+@import url('../css/main.css');
+@import url('../css/media.css');
+$primary:#68d4cb;
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
