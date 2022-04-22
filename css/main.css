@@ -18,7 +18,12 @@
 /*-------------------SOME INFO------------*/
 
 /*-------------------CAR'S CARD------------*/
-
+.auto{
+    height:150px;
+}
+.cardSize{
+    width: 18rem !important;
+}
 /*-------------------TRIP PRICES CARDS------------*/
 /*-------------------testimonials------------*/
 .slideImage{
@@ -27,4 +32,9 @@
     background-repeat: no-repeat;
     height:35rem;
     z-index: -2;
+}
+/*-------------------FOOTER------------*/
+.logoSize{
+    width: 180px !important;
+    height: 140px !important;
 }
