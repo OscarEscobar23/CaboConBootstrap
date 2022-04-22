@@ -26,13 +26,7 @@
 }
 /*-------------------TRIP PRICES CARDS------------*/
 /*-------------------testimonials------------*/
-.slideImage{
-    background-image: url(../img/losCabos.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:35rem;
-    z-index: -2;
-}
+
 /*-------------------FOOTER------------*/
 .logoSize{
     width: 180px !important;
